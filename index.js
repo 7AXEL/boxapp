@@ -1,4 +1,4 @@
-NoussetTimeout(()=> {
+setTimeout(()=> {
   document.getElementById("loader").style.animation = "logo 1s alternate infinite"
 }, 2000);
 setTimeout(()=> {
