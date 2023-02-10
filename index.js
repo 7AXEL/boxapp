@@ -1,4 +1,4 @@
-setTimeout(()=> {
+NoussetTimeout(()=> {
   document.getElementById("loader").style.animation = "logo 1s alternate infinite"
 }, 2000);
 setTimeout(()=> {
@@ -79,7 +79,7 @@ function effect3() {
   }, 100);
   document.getElementById("download_button1").style.background = "#00ffbb";
   document.getElementById("download_button1").style.color = "#ffffff";
-  dd("https://www.mediafire.com/file/st7jd6hns05o3d3/FreeFlix.apk/file?dkey=d79utx67vc0&r=175", "freeflix[mohamed_gharbi].apk")
+  dd("https://www.mediafire.com/file/lb9991xififc3mc/FreeFlix.apk/file", "freeflix[mohamed_gharbi].apk")
 }
 
 function effect2() {
