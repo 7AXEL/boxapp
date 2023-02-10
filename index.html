@@ -1,0 +1,95 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="assets/images/icon.png">
+    <script src="index.js"></script>
+    <title>ToolBox</title>
+  </head>
+  <body id="background">
+    <div id="loader">
+      <center>
+        <img src="assets/images/logo.png">
+      </center>
+    </div>
+    <div id="app">
+      <div id="sidenav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closemenu()">&times;</a>
+        <a href="index.html">&#x2302; Home</a>
+        <a onclick="settings()">&#x2699; Setting</a>
+        <a onclick="about()">&#9432; About</a>
+        <div class="dropdown">
+        <a href="#">&#9993; Contact</a>
+        <div class="dropdown-content">
+          <a href="https://www.facebook.com/profile.php?id=100080174330096">Facebook</a>
+          <a href="https://www.instagram.com/mohamed.gharbi.942">Instagram</a>
+        </div>
+        </div>
+      </div>
+      <span onclick="openmenu()" id="menu_icon">&#9776;</span>
+      <img src="assets/images/logo.png" class="logo">
+      <center>
+        <div id="topnav" class="topnav">
+          <a id="active" onclick="apps()">Apps</a>
+          <a id="li1" onclick="li1()">Tools</a>
+          <a id="li2" onclick="li2()" target="window" href="res/news.html">News</a>
+          <a id="li3" onclick="li3()" target="window" href="res/github.html">Github</a>
+        </div>
+      </center>
+      <div id="apps">
+        <div id="freeflix">
+           <img src="assets/images/freeflix.png"><br>
+           <a onclick="effect3()"><button id="download_button1">Download</button></a>
+        </div>
+        <div id="minecraft">
+          <img src="assets/images/minecraft.png"><br>
+          <a onclick="effect2()"><button id="download_button2">Download</button></a>
+        </div>
+      </div>
+      <div id="typewriter">
+        <p id="text">In this case you can find all tools</p>
+      </div>
+      </br>
+      <div id="tools">
+        <span>IPEX</span>
+        <p>this tool allow you to get the location af any website with his ip adress</p>
+        <a href="https://github.com/7AXEL/IPEX"><button id="button1" onclick="effect1('button1')">Get</button></a>
+        </br>
+        <span>DOS</span>
+        <p>this tool allow you to make a dos attack through server ip adress</p>
+        <a href="https://github.com/7AXEL/DOS"><button id="button2" onclick="effect1('button2')">Get</button></a>
+        </br>
+        <span>CLOUDFTP</span>
+        <p>useful tool to connect and manage you ftp storage </p>
+        <a href="https://github.com/7AXEL/CLOUDFTP"><button id="button3" onclick="effect1('button3')">Get</button></a>
+        </br>
+        <span>HIPER</span>
+        <p>hipper is a tool that alow you too send mail from command line and make spam attack</p>
+        <a href="https://github.com/7AXEL/HIPER"><button id="button4" onclick="effect1('button4')">Get</button></a>
+      </div>
+      <div id="overlay">
+        <center>
+          <div id="box">
+            <h1 id="close_setting" onclick="close_setting()">&times;</h1>
+            <h2>Settings</h2>
+            <h3>Theme</h3>
+            <br><button id="light" onclick="light()">Light</button>
+            <button id="dark" onclick="dark()">Dark</button>
+          </div>
+        </center>
+      </div>
+      <div id="about">
+        <div id="box">
+          <h1 id="close_about" onclick="close_about()">&times;</h1>
+          <h2>About</h2>
+          <p id="about_text">ToolBox is a website built to have all a.x.e.l tools and apps, powred by mohamed gharbi [a.x.e.l] copyright 2023-2024</p>
+        </div>
+      </div>
+      <center>
+        <iframe name="window" width="107%" height="100%" id="window" src="" frameborder=0></iframe>
+      </center>
+    </div>
+  </body>
+</html>
